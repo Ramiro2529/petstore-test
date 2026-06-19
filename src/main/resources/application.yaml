@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: stefanini
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+server:
+  port: 8080
+
+petstore:
+  base-url: https://petstore.swagger.io/v2
+  connect-timeout-seconds: 5
+  read-timeout-seconds: 10
